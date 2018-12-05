@@ -20,14 +20,15 @@ npm run build --report
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
+---
 由于之前的公司的项目中的工作流管理要用到流程图，而``bpmn-js``官方的文档是全英的而且使用的``js``框架是``jQuery``，可能是比较新的技术，官方也还在不断的更新，相关的文档或者资料很少很难找，只好自己不断爬坑填坑了。
 
-#什么是bpmn-js？
+# 什么是bpmn-js？
 一个``BPMN 2.0``渲染工具包和Web建模器。
 github地址：https://github.com/bpmn-io
 实例地址：[https://bpmn.io/toolkit/bpmn-js/](https://bpmn.io/toolkit/bpmn-js/)
 
-##1.先从简单开始，能获取服务器上的流程图并显示出来：
+## 1.先从简单开始，能获取服务器上的流程图并显示出来：
 安装相关的依赖都是必须的，可以在官方文档上查看，在这里就不详细讲了。
 + html: (界面很简单，这些都是必需的。)
 ```html
@@ -194,6 +195,3 @@ github地址：https://github.com/bpmn-io
 ```
 
 ![有图有真相](https://upload-images.jianshu.io/upload_images/7016617-fc4e4996881aaba1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-### 完整项目地址：
-# [vue-bpmn-demo1](https://github.com/LiaPig/vue-bpmn-demo1)
